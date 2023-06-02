@@ -1,0 +1,276 @@
+*{
+	font-family: "Open Sans";
+}
+body {
+	min-height: 75rem;
+	padding-top: 4.5rem;
+  }
+.navbar-nav .nav-item .nav-link{
+	color:black!important;
+	
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-style: normal;
+    margin-right:20px;
+}
+.btn-search{
+	background-color: black!important;
+	color:white!important;
+}
+.footer{
+	background-color: #363839;
+}
+.fa-twitter-square{
+	color:#1DA1F2;
+	
+}
+.fa-linkedin{
+	color:#0077B5;
+}
+.fa-instagram-square{
+	color:#3976a8;
+}
+.fa-facebook-square{
+	color:#3A5285;
+}
+.fab{
+	font-size:28px;
+	
+}
+.fa-facebook-f{
+	background-color:#14A0F9;
+	color:white;
+	padding:5px;
+	width:38px;
+	height:35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.fa-linkedin-in{
+	background-color:#0B6A9C;
+	color:white;
+	padding:5px;
+	width:38px;
+	height:35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.fa-instagram{
+	background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+	color:white;
+	padding:5px;
+	width:38px;
+	height:35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.fa-twitter{
+	
+	background:#1DA1F2;
+	color:white;
+	padding:5px;
+	width:38px;
+	height:35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.fa-whatsapp{
+
+	background:	#33DA51;
+	color:white;
+	padding:5px;
+	width:38px;
+	height:35px;
+	text-align: center;
+	border-radius: 3px;
+}
+.footer-products h6 a,.footer-link h6 a{
+	color:white;
+	text-decoration: none;
+}
+.footer-products h6 a:hover,.footer-email:hover,.footer-link h6 a:hover{
+	color:rgb(244, 166, 56);
+
+}
+.slider-content{
+	margin-top:100px;
+	margin-bottom:100px;
+	
+}
+.sliders{
+	overflow: hidden;
+}
+.slick-next {
+    right: 30px!important;
+}
+.slick-prev
+{
+    left: 0px!important;
+}
+
+.slider-one{
+	background-image: url('./../images/main-slider-1-1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	
+}
+.slider-two{
+	background-image: url('./../images/banner-2.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:black;
+	
+}
+.slider-three{
+	background-image: url('./../images/banner-3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:black;
+	
+}
+.slick-prev:before, .slick-next:before {
+	font-size:50px!important;
+}
+
+.slick-prev, .slick-next {
+	z-index:3000!important;
+}
+.what-we-do{
+	background-color: #EFF4F2;
+}
+.icon i{
+	background-color:#767776;
+	color:white;
+	padding:35px;
+	border-radius: 50%;
+	font-size:30px;
+}
+.icon .fa-bolt{
+	padding:34px 40px;
+}
+.services a{
+	text-decoration: none;
+	color:black;
+	font-weight: 800;
+}
+.services a:hover{
+	color:#003F7F;
+}
+.fa-arrow-right{
+	background-color: #003F7F;
+	color:white;
+	padding:5px 10px;
+}
+.icon-hover .icon i:hover{
+	background-color: #FC8F14;
+	
+}
+.icon-hover h3:hover{
+	color:#FC8F14;
+}
+.faqs{
+	margin-top:40px;
+}
+.faqs .fa-plus-square{
+	color:#003F7F;
+	
+}
+.faqs a{
+	font-size:25px;
+	text-decoration: none;
+}
+.faqs a span{
+	font-size:20px;
+	color:black;
+}
+.faqs a i:hover,.faqs a span:hover{
+	color:#FC8F14;
+}
+.agent{
+	background-color: #EFF4F2;
+	
+	
+}
+.agend-div{
+	background-color: #355D4D;
+	color:white;
+	border-radius: 5px;
+
+}
+.blog-date{
+	background-color: #003F7F;
+	color:white;
+	
+}
+.blog-second a{
+	text-decoration: none;
+	color:black;
+	font-weight:600;
+	font-size:19px;
+}
+.blog-second a:hover{
+	color: #003F7F;
+}
+.agend-div h1{
+	font-weight:600;
+	font-size:40px;
+}
+.first-blog-part{
+	position:relative;
+}
+.second-blog-part a,.second-blog-part h5 a{
+	color:white;
+}
+.second-blog-part a:hover{
+	color:white;
+}
+.second-blog-part{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	padding-top:10%;
+	background-color: #003f7fb7;
+	color:white;
+	opacity: 0;
+
+}
+.second-blog-part:hover{
+	opacity: 1;
+	
+}
+.button-slider{
+	width:25%;
+}
+.second-blog-part .fas{
+	background-color: white;
+	padding:9px;
+	border-radius: 50%;
+}
+.fa-envelope{
+	background-color: #EAEDF3;
+	padding:15px;
+	border-radius: 50%;
+	font-size:40px;
+}
+@media(max-width:1024px){
+	.trusted-second-part{
+		display:none;
+	}
+}
+@media(max-width:600px){
+	.services .card{
+		margin-top:20px;
+	}
+	.faq img{
+		width:100%;
+	}
+	.button-slider{
+		width:100%!important;
+	}
+}
