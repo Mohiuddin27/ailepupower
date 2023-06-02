@@ -205,6 +205,7 @@ body {
 .blog-date{
 	background-color: #003F7F;
 	color:white;
+	font-size:21px;
 	
 }
 .blog-second a{
@@ -272,5 +273,8 @@ body {
 	}
 	.button-slider{
 		width:100%!important;
+	}
+	.blog-date{
+		font-size:18px;
 	}
 }
