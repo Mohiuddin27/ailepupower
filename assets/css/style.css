@@ -266,7 +266,8 @@ body {
 	padding:9px;
 	border-radius: 50%;
 }
-.fa-envelope{
+
+.solar .fa-envelope{
 	background-color: #EAEDF3;
 	padding:15px;
 	border-radius: 50%;
@@ -287,13 +288,29 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.about-us-hero-content{
+.job-hero{
+	background: url('./../images/job-banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-us-hero-content,.job-hero-content,.agent-hero-content{
 	padding-top:150px;
 	padding-bottom:150px;
 }
-.about-us-hero-content h1{
+.agent-hero{
+	background: url('./../images/banner-3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-us-hero-content h1,.job-hero-content h1{
 	color:rgb(255, 255, 255);
 	font-weight: 600;
+}
+.agent-hero-content h1{
+	font-weight:600;
+	font-size:40px;
 }
 .off-grid-hero-content{
 	padding-top:150px;
@@ -304,7 +321,7 @@ body {
 	font-weight: 600;
 	font-size:45px;
 }
-.off-grid-hero-content h4,.about-us-hero-content h4{
+.off-grid-hero-content h4,.about-us-hero-content h4,.job-hero-content h4,.agent-hero-content h4{
 	color:#FC8F14;
 	font-weight: 600;;
 }
@@ -323,6 +340,30 @@ body {
 	margin-bottom:-17px;
 	
 }
+.contact{
+	background-color: #EFF4F2;
+}
+.address .fas,.email .fa-envelope{
+	background-color: white;
+	color:black;
+	padding:18px 20px!important;
+	border-radius: 50%;
+}
+.why-us-card{
+	position:relative;
+}
+.card-image{
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.why-us-card{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
 @media(max-width:1024px){
 	.trusted-second-part{
 		display:none;
@@ -364,5 +405,8 @@ body {
 	}
 	.off-grid-services .card{
 		margin-top:20px;
+	}
+	.email-input{
+		margin-top:16px!important;
 	}
 }
