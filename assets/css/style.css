@@ -221,14 +221,24 @@ body {
 	font-weight:600;
 	font-size:40px;
 }
-.first-blog-part{
+.first-blog-part,.off-grid-service-first-part{
 	position:relative;
 }
-.second-blog-part a,.second-blog-part h5 a{
+.second-blog-part a,.second-blog-part h5 a,.off-grid-service-second-part a,.off-grid-service-second-part h5 a{
 	color:white;
 }
 .second-blog-part a:hover{
 	color:white;
+}
+.off-grid-service-second-part{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	padding-top:35%;
+	background-color: #003f7fb7;
+	color:white;
+	opacity: 0;
 }
 .second-blog-part{
 	position:absolute;
@@ -241,14 +251,17 @@ body {
 	opacity: 0;
 
 }
-.second-blog-part:hover{
+.off-grid-name:hover{
+	color:white;
+}
+.second-blog-part:hover,.off-grid-service-second-part:hover{
 	opacity: 1;
 	
 }
 .button-slider{
 	width:25%;
 }
-.second-blog-part .fas{
+.second-blog-part .fas,.off-grid-service-second-part .fas{
 	background-color: white;
 	padding:9px;
 	border-radius: 50%;
@@ -261,6 +274,54 @@ body {
 }
 .slider-content{
 	padding-left:80px;
+}
+.off-grid-hero{
+	background: url('./../images/carousel.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-us-hero{
+	background: url('./../images/service-bar.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-us-hero-content{
+	padding-top:150px;
+	padding-bottom:150px;
+}
+.about-us-hero-content h1{
+	color:rgb(255, 255, 255);
+	font-weight: 600;
+}
+.off-grid-hero-content{
+	padding-top:150px;
+	padding-bottom:150px;
+}
+.off-grid-hero-content h1{
+	color:white;
+	font-weight: 600;
+	font-size:45px;
+}
+.off-grid-hero-content h4,.about-us-hero-content h4{
+	color:#FC8F14;
+	font-weight: 600;;
+}
+.off-grid-services .card{
+	margin-top:20px;
+}
+.about-trusted{
+	background-color: #EFF4F2;
+
+}
+.history{
+	background: url('./../images/banner1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom:-17px;
+	
 }
 @media(max-width:1024px){
 	.trusted-second-part{
@@ -300,5 +361,8 @@ body {
 	}
 	.slider-content p{
 		margin-bottom:50px;
+	}
+	.off-grid-services .card{
+		margin-top:20px;
 	}
 }
