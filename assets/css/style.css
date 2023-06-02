@@ -259,10 +259,14 @@ body {
 	border-radius: 50%;
 	font-size:40px;
 }
+.slider-content{
+	padding-left:80px;
+}
 @media(max-width:1024px){
 	.trusted-second-part{
 		display:none;
 	}
+	
 }
 @media(max-width:600px){
 	.services .card{
@@ -276,5 +280,25 @@ body {
 	}
 	.blog-date{
 		font-size:18px;
+	}
+	.slider-content{
+		padding-left:0px;
+		text-align: center;
+	}
+	.button-slider{
+		display: flex;
+		flex-direction: column!important;
+		
+	}
+	.button-slider a{
+		width:50%;
+		text-align: center;
+		display: block;
+		margin:0 auto;
+		margin-bottom:10px;
+		
+	}
+	.slider-content p{
+		margin-bottom:50px;
 	}
 }
